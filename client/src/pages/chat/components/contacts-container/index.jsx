@@ -1,4 +1,5 @@
 import { Heading6 } from "lucide-react";
+import ProfileInfo from "./components/profile-info";
 
 const ContactsConatiner = () => {
   return (
@@ -16,6 +17,7 @@ const ContactsConatiner = () => {
           <Title text="Channels" />
         </div>
       </div>
+      <ProfileInfo />
     </div>
   );
 };
